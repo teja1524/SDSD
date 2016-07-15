@@ -1,0 +1,23 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info)",
+  "name": "localStorage",
+  "description": "W3C localStorage for Node.JS",
+  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolaj86/node-localStorage.git"
+  },
+  "engines": {
+    "node": ">= v0.2.0"
+  },
+  "main": "./lib/localStorage.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "md5": "^2.1.0",
+    "node-localstorage": "^1.3.0"
+  },
+  "devDependencies": {},
+  "license": "Apache2"
+}
